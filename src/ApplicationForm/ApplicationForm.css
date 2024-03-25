@@ -1,0 +1,327 @@
+.text-heading{
+    font-weight: bold;
+    font-family:'BREIF-SERIS'; 
+    margin-left: 14px;
+    border-radius: 10px;
+}
+
+.lan-input-checkbox{
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.application-con{
+    border:1px solid #000;
+    margin:10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.application-page-1{
+    border:1px solid #000;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+.form-heading{
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.form-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self:center ;
+    border-radius: 10px;
+}
+
+
+
+.table-col{
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.table-col-2 {
+    border: 1px solid #000;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.name-inputs-field{
+    font-size: 10px;
+    font-weight: normal;
+    border-radius: 10px;
+}
+
+.name-field{
+    display: flex;
+    border: 1px solid #000;
+}
+.address{
+    border: #000 1px solid;
+    width: 50%;
+}
+.adress-field{
+    display: flex;
+}
+
+.adress-input-field{
+    display: flex;
+    border: #000 solid 1px;
+    width:50%;
+}
+
+.input-fields{
+    width:100%
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; 
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+}
+
+button[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    background-color: #45a049;
+}
+
+section {
+    margin-bottom: 40px;
+} */
+
+/* birth */
+/* .birth div{
+    border: 1px solid black;
+} */
+.form-container{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.form-left-datails span {
+    display: block;
+}
+/* .form-fill, .form-left-datails{
+    border-left: 1ps solid black;
+} */
+.form-fill{
+    border: 1px solid black;
+    width: 100%;
+}
+.form-control{
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: none;
+}   
+
+
+/* .tbl-personal-details{
+    width: 100% !important;
+    margin-top: 20px;
+}
+.tbl-personal-details{
+    border: 1px solid black;
+}
+.tbl-personal-details thead tr{
+    text-align: center;
+} */
+.border{
+    border: 1px solid black !important;
+}
+.birth-details{
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr 4fr;
+}
+.family-particulars{
+    width: 100%;
+    text-align: center;
+}
+.family-particulars td, th{
+    border: 1px solid black;
+    /* padding: 20px; */
+}
+.relationship-sec input{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.relationship-sec-span span{
+    line-height: 21px;
+}
+.passport div{
+    border-right: 1px solid black !important;
+    padding: 10px;
+}
+.pass-span-container span{
+    line-height: 20px;
+}
+.w-vsm{
+    width: 40px;
+
+}
+.education-1-tbl td{
+    height:30px;
+    padding: 10px;
+}
+
+.vision-inputs{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.inputs-vision{
+    padding:6px;
+    border: 1px solid #000;
+    border-radius: 8px;
+}
+@media (max-width:767px) {
+    .gender{
+        margin: 0px !important;
+    }
+    .gender p{
+        margin: 0px !important;
+    }
+    .res-border-none{
+        border: none !important;
+    }
+    .res-remove-margin{
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+    .avator-uploader{
+        justify-content: center !important;
+    }
+    .order-md-1 {
+        order: 1; 
+      }
+    
+      .order-md-2 {
+        order: 2;
+      }
+      .passport{
+        justify-content: start !important;
+        flex-wrap: wrap;
+      }
+      .passport div{
+        width: 100%;
+      }
+      .res-text-left{
+        text-align: left !important;
+      }
+      .res-p-0{
+        padding: 0px !important;
+      }
+      .res-m-0{
+        margin: 0px !important;
+      }
+      .w-100-force{
+        width: 200px !important;
+      }
+      .res-j-c-start div{
+        justify-content: start !important;
+      }
+      .res-display-felx-column{
+        display: flex;
+        flex-direction: column;
+      }
+      .res-display-felx-row{
+        display: flex;
+      }
+      .res-font-size{
+        font-size: 12px;
+      }
+      .res-ml-2{
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+      }
+      .res-ml{
+        margin-right: 10px;
+   
+        margin-bottom: 5px;
+      }
+      .max-width{
+        max-width: 150px;
+        outline: none;
+        flex-grow: 1;
+       
+      }
+      .form-control-none{
+        border: none;
+        border-radius: none;
+    }  
+    
+    .col-sm-d-none{
+        display: none;
+    }
+    .remove-w-25{
+        width: 100% !important;
+    }
+  
+}
+
+/* @media (min-width:767px) {
+    .res-display-felx-column{
+        display: flex;
+       
+      }
+      .res-display-felx-row{
+        display: flex;
+      }
+} */
+
